@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+
+  /* We inherit the box-sizing, It's more 
+  acceptible in the CSS community */
+  box-sizing: inherit;
+}
+html {
+  /* font-size: 10px; */
+  /* //reviously we set the font-size to 10px
+  //but we should consider if users want to
+  //increase or decrease the default font-size of the
+  // browser fo accessibility reasons. That's why we use
+  //percentage here. 10 devided by 16 equals to 62.7% */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
